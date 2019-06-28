@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qt.raderdemo.MainActivity">
+
+    <com.qt.raderdemo.RadarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/radarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:radar_view_space="150"
+        app:radar_view_color="#FF89F2C7"
+        app:radar_view_speed="10"
+        app:radar_view_is_alpha="true"
+        app:radar_view_center_image="@mipmap/ic_search_bluetooth"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="radar_view">
+        <attr name="radar_view_space" format="integer"/><!--两个环之间的间距-->
+        <attr name="radar_view_color" format="color"/><!--圆环的颜色-->
+        <attr name="radar_view_speed" format="integer"/><!--扩散的速度-->
+        <attr name="radar_view_is_alpha" format="boolean"/><!--扩散是否需要渐变-->
+        <attr name="radar_view_center_image" format="reference"/><!--中心图片-->
+    </declare-styleable>
+
+</resources>
